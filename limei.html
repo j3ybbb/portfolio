@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sasha's Full Portfolio</title>
+	<link rel="stylesheet" href="portfoliostyle.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Gaegu:wght@400;700&family=Fredoka+One&display=swap');
+
+
+        body {
+            background-color: #b5a4cf/*purple background from the image*/
+            font-family: 'Gaegu', cursive;
+            display: flex;
+            justify-content: center;
+            padding: 50px 0;
+            margin: 0;
+        }
+
+        .clipboard {
+            background-color: #a67c52;
+            width: 800px;
+            border-radius: 40px;
+            position: relative;
+            padding: 70px 20px 40px 20px;
+			padding-top: 150px;
+            box-shadow: 20px 20px 0px rgba(0,0,0,0.2);
+        }
+
+        .paper {
+            background-color: #fdfaf1;
+            background-image: radial-gradient(#d1d1d1 1px, transparent 1px);
+            background-size: 25px 25px;
+            width: 100%;
+            border-radius: 10px;
+            padding: 60px 40px;
+            box-sizing: border-box;
+            position: relative;
+        }
+
+        .header-area { text-align: center; margin-bottom: 40px; }
+        .header-area h1 { font-family: 'Fredoka One'; font-size: 60px; margin: 0; color: #333; letter-spacing: 3px; }
+
+        .polaroid-frame {
+            background: white;
+            padding: 10px 10px 50px 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            width: 280px;
+            margin: 0 auto 40px auto;
+            transform: rotate(-2deg);
+            border: 1px solid #ddd;
+        }
+        .polaroid-frame img { width: 100%; filter: sepia(10%); }
+
+        /* Scanned List Styling */
+        .info-section {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 25px;
+        }
+
+        .scrap-paper {
+            background: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 3px 3px 0px rgba(0,0,0,0.05);
+            position: relative;
+            border: 1px solid #eee;
+        }
+
+        .scrap-paper h3 { 
+            margin-top: 0; 
+            color: #d88fa5; 
+            border-bottom: 2px dashed #f9d8e2;
+            font-size: 24px;
+        }
+
+        .list-item { margin-bottom: 12px; line-height: 1.2; }
+        .label { font-size: 14px; color: #999; text-transform: uppercase; display: block; }
+        .text { font-size: 20px; color: #333; font-weight: bold; }
+
+        .tape {
+            width: 80px;
+            height: 25px;
+            background: rgba(245, 166, 123, 0.4);
+            position: absolute;
+            top: -10px;
+            left: -10px;
+            transform: rotate(-15deg);
+        }
+
+        footer { text-align: center; margin-top: 50px; font-size: 22px; color: #d88fa5; }
+    </style>
+</head>
+<body>
+
+<header class="header-portfolio">
+<a href="portfolio.html" class="homepage">Home</a>
+<nav class="navbar">
+
+<a href="audrey.html">Audrey</a>
+<a href="pollen.html">Pauline</a>
+<a href="erica.html">Erica</a>
+<a href="jane.html">Jane</a>
+<a href="balsy.html">Balsy</a>
+<a href="gaile.html">Gaile</a>
+<a href="chesca.html">Franchesca</a>
+<a href="limei.html">Limei</a>
+
+</nav>
+<a href="contactus.html" class="contact">Contact us</a>
+</header>
+
+<div class="clipboard">
+    <div class="paper">
+        
+        <div class="header-area">
+            <p>✿ Hello, meet me! ✿</p>
+            <h1>ALL ABOUT ME</h1>
+        </div>
+
+        <div class="polaroid-frame">
+            <img src="meimei.jpeg" alt="Limei">
+            <p style="text-align: center; font-size: 24px; margin-top: 15px;"></p>
+        </div>
+
+        <div class="info-section">
+            <div class="scrap-paper" style="transform: rotate(1deg);">
+                <div class="tape"></div>
+                <h3>Identity</h3>
+                <div class="list-item"><span class="label">Name</span><span class="text">Limei Solis</span></div>
+                <div class="list-item"><span class="label">Gender</span><span class="text">Female</span></div>
+                <div class="list-item"><span class="label">Age</span><span class="text">14</span></div>
+                <div class="list-item"><span class="label">MBTI</span><span class="text">INFP</span></div>
+            </div>
+
+            <div class="scrap-paper" style="transform: rotate(-1deg); background: #fdf2f5;">
+                <h3>Roots</h3>
+                <div class="list-item"><span class="label">Birthday</span><span class="text">10.17.11</span></div>
+                <div class="list-item"><span class="label">Birthplace</span><span class="text">Riyadh, Saudi Arabia</span></div>
+                <div class="list-item"><span class="label">Country u're from</span><span class="text">Philippines</span></div>
+                <div class="list-item"><span class="label">Country u're living in</span><span class="text">Saudi Arabia</span></div>
+                <div class="list-item"><span class="label">Religion</span><span class="text">Catholic</span></div>
+            </div>
+
+            <div class="scrap-paper" style="transform: rotate(2deg);">
+                <h3>Circle</h3>
+                <div class="list-item"><span class="label">Parents & Occupation</span><span class="text">Jovita Solis(phsio theraphist) Hayrettin Ozgun(mechanic)</span>
+Limei
+<div class="list-item"><span class="label">Siblings</span><span class="text">Nani Simpao, Chen Solis, Chim Solis</span></div>
+                <div class="list-item"><span class="label">Dream Occupation</span><span class="text">Chef or Teache4</span></div>
+            </div>            <div class="scrap-paper" style="transform: rotate(-2deg); background: #fef9e7;">
+                <div class="tape" style="background: rgba(156, 189, 110, 0.4); left: auto; right: -10px;"></div>
+                <h3>Favorites</h3>
+                <div class="list-item"><span class="label">Fav Food</span><span class="text">Pasta</span></div>
+                <div class="list-item"><span class="label">Fav Drink</span><span class="text">matcha</span></div>
+                <div class="list-item"><span class="label">Fav Color</span><span class="text">green</span></div>
+                <div class="list-item"><span class="label">Fav Artist</span><span class="text">lngshot, niki, jao</span></div>
+                <div class="list-item"><span class="label">Fav Song</span><span class="text">ejeh, urs, kabanata</span></div>
+                <div class="list-item"><span class="label">Fav Flower</span><span class="text">Tulips</span></div>
+            </div>
+
+            <div class="scrap-paper" style="grid-column: span 2; transform: rotate(0.5deg);">
+                <h3>Personal Style</h3>
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+                    <div>
+                        <div class="list-item"><span class="label">Hobbies</span><span class="text">readimg, singing, damcing, journaling</span></div>
+                        <div class="list-item"><span class="label">Fav Game</span><span class="text">Minecraft</span></div>
+                        <div class="list-item"><span class="label">Fav Series/Movie</span><span class="text">Alice in Boarderland</span></div>
+                    </div>
+                    <div>
+                        <div class="list-item"><span class="label">Style in Clothes</span><span class="text">simple and clean</span></div>
+                        <div class="list-item"><span class="label">Skill I'm Proud Of</span><span class="text">creativity</span></div>
+                        <div class="list-item"><span class="label">Fav Subject</span><span class="text">math, science, and english</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="scrap-paper" style="margin-top: 30px; width: 100%; box-sizing: border-box; background: #eef7ff;">
+            <h3>The Most Important Things</h3>
+            <p class="text">Things I love the most: God, matcha, woojin/ateez, photos, music</p>
+            <p class="text">Gift I'd like the most: salvation</p>
+            <p class="text">Fun Fact: I love matcha!</p>
+        </div>
+
+        <footer>
+            Thank you!!♡
+        </footer>
+
+    </div>
+</div>
+
+</body>
+</html>

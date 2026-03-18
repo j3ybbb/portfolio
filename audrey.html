@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Portfolio</title>
+<link href="portfoliostyle.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #87CEFA;
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+}
+
+.container {
+    background: white;
+    max-width: 1100px;
+    width: 100%;
+    border-radius: 20px;
+    padding: 40px;
+	padding-top: 20px;
+	margin-top: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.text {
+    max-width: 500px;
+}
+
+.text h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+.text h3 {
+    color: #A7D8FF;
+    margin-bottom: 15px;
+}
+
+.fun-facts {
+    color: #A7D8FF;
+}
+
+.text p {
+    color: #555;
+    line-height: 1.5;
+}
+
+.info {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.info p {
+    margin: 4px 0;
+}
+
+.image-box {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    flex-shrink: 0;
+    left: -50px;
+}
+
+.image-bg {
+    position: absolute;
+    top: -20px;
+    left: -30px;
+    width: 400px;
+    height: 400px;
+    background: #87CEFA;
+    border-radius: 50%;
+    opacity: 0.5;
+    z-index: 0;
+}
+
+.image-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center top;
+    border-radius: 50%;
+    position: relative;
+    z-index: 1;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+@media (max-width: 900px) {
+    .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .image-box {
+        margin-top: 20px;
+        left: 0;
+    }
+
+    .image-bg {
+        top: -20px;
+        left: -20px;
+        width: 350px;
+        height: 350px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header class="header-portfolio">
+<a href="portfolio.html" class="homepage">Home</a>
+<nav class="navbar">
+
+<a href="audrey.html">Audrey</a>
+<a href="pollen.html">Pauline</a>
+<a href="erica.html">Erica</a>
+<a href="jane.html">Jane</a>
+<a href="balsy.html">Balsy</a>
+<a href="gaile.html">Gaile</a>
+<a href="chesca.html">Franchesca</a>
+<a href="limei.html">Limei</a>
+
+</nav>
+<a href="contactus.html" class="contact">Contact us</a>
+</header>
+
+<div class="container">
+    <div class="text">
+        <h1>Audrey Ian B. Cueva</h1>
+        <h3>Christian • Female • 14 years old</h3>
+
+        <p>Hi everyone! I am Audrey Ian B. Cueva, I am 14 years old and I am an ISFJ. My birthday is on March 3 and my birthplace is in Riyadh, Saudi Arabia. Im from the Philippines, Cebu City and I live in Riyadh, Saudi Arabia. My mothers name is Jocelyn B. Cueva and my fathers name is Ian Ferdinand G. Cueva.</p>
+
+        <h2 class="fun-facts">FUN FACTS ABOUT ME</h2>
+
+        <div class="info">
+            <p><b>My favorite food is sinigang</b></p>
+            <p><b>My favorite artist is Daniel Caesar</b></p>
+            <p><b>My favorite song is probably Neu Roses</b></p>
+            <p><b>My hobbies are Playing my instruments and watch movies</b></p>
+            <p><b>My favorite drink is any drink that has chocolate</b></p>
+            <p><b>My favorite subjects are Math and Science</b></p>
+            <p><b>My dream job is to be a Surgeon/Accountant</b></p>
+            <p><b>My favorite colors are navy blue, black, white</b></p>
+            <p><b>My favorite sport is volleyball</b></p>
+            <p><b>My favorite flowers are peonies</b></p>
+            <p><b>I love my cat, my family, and my friends</b></p>
+            <p><b>Best skill: I can play a few instruments</b></p>
+        </div>
+    </div>
+
+    <div class="image-box">
+        <div class="image-bg"></div>
+        <img src="https://i.postimg.cc/Kv3T5BZ7/IMG-20260317-115828-793.jpg" alt="My Photo">
+    </div>
+</div>
+
+</body>
+</html>

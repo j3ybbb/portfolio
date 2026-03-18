@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Personal Profile | Student Edition</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="portfoliostyle.css">
+
+<style>
+
+:root {
+--primary-accent: #ff8fa3; 
+--bg-color: #fdfcf0;
+--card-bg: #ffffff;
+--text-main: #4a4e69;
+}
+
+ body {
+font-family: 'Poppins', sans-serif;
+background-color: var(--bg-color);
+color: var(--text-main);
+margin: 0;
+padding: 20px;
+}
+
+.container {
+max-width: 900px;
+margin: 0 auto;
+}
+
+      
+.meheader {
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 25px;
+padding: 40px 0;
+padding-top: 150px;
+}
+
+.profile-pic {
+width: 120px;
+height: 120px;
+border-radius: 50%; 
+border: 4px solid var(--primary-accent);
+object-fit: cover;
+}
+
+.header-text {
+text-align: left; 
+}
+
+header h1 {
+font-size: 3rem;
+margin: 0;
+color: var(--primary-accent);
+}
+
+header p {
+font-size: 1.2rem;
+font-style: italic;
+opacity: 0.8;
+margin: 5px 0 0 0;
+}
+
+        
+.grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 20px;
+}
+
+.card {
+background: var(--card-bg);
+padding: 25px;
+border-radius: 20px;
+box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+transition: transform 0.3s ease;
+}
+
+.card:hover {
+transform: translateY(-5px);
+}
+
+h2 {
+font-size: 1.4rem;
+border-bottom: 2px solid var(--primary-accent);
+padding-bottom: 8px;
+margin-bottom: 15px;
+color: var(--primary-accent);
+}
+
+.info-item {
+margin-bottom: 10px;
+display: flex;
+justify-content: space-between;
+}
+
+.label {
+font-weight: 600;
+color: #9a8c98;
+}
+
+.value {
+text-align: right;
+font-weight: 400;
+}
+        
+.highlight-box {
+background: var(--primary-accent);
+color: white;
+padding: 20px;
+border-radius: 15px;
+margin: 20px 0;
+text-align: center;
+}
+
+.pills {
+display: flex;
+flex-wrap: wrap;
+gap: 8px;
+margin-top: 10px;
+}
+
+.pill {
+background: #f0eff4;
+padding: 5px 12px;
+border-radius: 20px;
+font-size: 0.85rem;
+}
+
+@media (max-width: 600px) {
+header { flex-direction: column; text-align: center; }
+.header-text { text-align: center; }
+header h1 { font-size: 2rem; }
+.info-item { flex-direction: column; text-align: left; }
+.value { text-align: left; margin-top: 2px; }
+}
+</style>
+</head>
+<body>
+
+<header class="header-portfolio">
+<a href="portfolio.html" class="homepage">Home</a>
+<nav class="navbar">
+
+<a href="audrey.html">Audrey</a>
+<a href="pollen.html">Pauline</a>
+<a href="erica.html">Erica</a>
+<a href="jane.html">Jane</a>
+<a href="balsy.html">Balsy</a>
+<a href="gaile.html">Gaile</a>
+<a href="chesca.html">Franchesca</a>
+<a href="limei.html">Limei</a>
+
+</nav>
+<a href="contactus.html" class="contact">Contact us</a>
+</header>
+
+<div class="container">
+<header class="meheader">
+
+        
+<img src="https://i.ibb.co/Q3wQ0qjp/temp-image-B9384-BB9-90-EF-40-B4-857-E-748-A1-D4135-F2-Original.jpgProfile Photo" class="profile-pic">
+        
+<div class="header-text">
+<h1>Pauline D. Katipunan</h1>
+<p>Hii, and welcome to my personal profile</p>
+</div>
+</header>
+
+<div class="highlight-box">
+<strong>Fun Fact:</strong> I like to sing on some occasions.. 
+</div>
+
+<div class="grid">
+        
+<div class="card">
+<h2>About Me</h2>
+<div class="info-item"><span class="label">Gender:</span><span class="value">Female</span></div>
+<div class="info-item"><span class="label">Age:</span><span class="value">14 Years Old</span></div>
+<div class="info-item"><span class="label">Birthday:</span><span class="value">December 01, 2011</span></div>
+<div class="info-item"><span class="label">Birthplace:</span><span class="value">Riyadh, Saudi Arabia</span></div>
+<div class="info-item"><span class="label">Nationalism:</span><span class="value">Filipino</span></div>
+<div class="info-item"><span class="label">Religion:</span><span class="value">Christian</span></div>
+</div>
+
+
+<div class="card">
+<h2>Origins & Family</h2>
+<div class="info-item"><span class="label">From:</span><span class="value">Philippines</span></div>
+<div class="info-item"><span class="label">Living In:</span><span class="value">Saudi Arabia </span></div>
+<div class="info-item"><span class="label">Parents:</span><span class="value">Wilma Katipunan, Patrick Katipunan</span></div>
+<div class="info-item"><span class="label">Siblings:</span><span class="value">Simon, Ruth</span></div>
+<div class="info-item"><span class="label">Favorite Subject:</span><span class="value">Math</span></div>
+</div>
+
+<div class="card">
+<h2>My Favorites</h2>
+<div class="info-item"><span class="label">Artist:</span><span class="value">December Avenue</span></div>
+<div class="info-item"><span class="label">Song:</span><span class="value">Love. by wave to earth</span></div>
+<div class="info-item"><span class="label">Movie:</span><span class="value">Sisterrakas</span></div>
+<div class="info-item"><span class="label">Series:</span><span class="value">Stranger things</span></div>
+<div class="info-item"><span class="label">Game:</span><span class="value">Roblox</span></div>
+<div class="info-item"><span class="label">Drink:</span><span class="value">Iced Tea</span></div>
+<div class="info-item"><span class="label">Food:</span><span class="value">Cheese sticks/Mozzarella sticks</span></div>
+</div>
+
+        
+<div class="card">
+<h2>Personal Style</h2>
+<div class="info-item"><span class="label">Clothing Style:</span><span class="value">Minimalist</span></div>
+<div class="info-item"><span class="label">Proud Skill:</span><span class="value">Singing</span></div>
+<div class="info-item"><span class="label">Dream Gift:</span><span class="value">Handmade gifts</span></div>
+<div class="info-item"><span class="label">Favorite Color:</span><span class="value" style="color: #022658; var(--primary-accent); font-weight: bold;">Navy blue</span></div>
+<div class="info-item"><span class="label">Favorite Flower:</span><span class="value">Lilies and Tulips</span></div>
+</div>
+
+        
+<div class="card">
+<h2>Hobbies & Passions</h2>
+<div class="label">I spend my time:</div>
+<div class="pills">
+<div class="pill">Singing</div>
+<div class="pill">Dancing</div>
+<div class="pill">Exercising</div>
+<div class="pill">Badminton </div>
+</div>
+<br>
+<div class="label">Things I love most:</div>
+<p style="font-size: 0.9rem;">I love playing spending time with the people I love.</p>
+</div>
+</div>
+</div>
+
+</body>
+</html>

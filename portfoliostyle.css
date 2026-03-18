@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+
+
+* {
+	margin:0; 
+	padding:0; 
+	box-sizing: border-box;
+	font-family:georgia;
+}
+.header-portfolio { 
+position:fixed; 
+top:0; 
+left:0; 
+width:100%; 
+padding: 35px 12%; 
+background: #9ABADB; 
+backdrop-filter: blur(10px); 
+display: flex; 
+gap:70px; 
+align-items: center; 
+z-index:100;
+font-family: georgia;
+}
+
+.navbar a {
+	font-size: 16px;
+	color: black;
+	font-style: italic;
+	margin: 10px;
+text-decoration:none;
+transform: scale(1.1);
+ }
+
+.navbar a:hover {
+font-weight: 600; 
+text-decoration:underline;
+color:palevioletred;
+transition: 0.15s ease;
+background-color: white;
+padding: 5px;
+border-radius: 8px;
+}
+
+.homepage { 
+padding:10px 28px;
+background-color:white;
+border: 2px solid transparent;
+border-radius: 8px;
+font-size:18px;
+letter-spacing:1px;
+transition:0.3 ease; 
+color:lightsteelblue;
+text-decoration:none;
+}
+.homepage:hover {
+	font-weight: 600;
+	text-decoration:underline;
+	color: white;
+	background-color:#F3E7D5;
+	box-shadow: 0 0 25px #F3E7D5;
+	transition: 0.15s ease;
+}
+
+.contact{ 
+padding:10px 28px;
+background-color:white;
+border: 2px solid transparent;
+border-radius: 8px;
+font-size:18px;
+letter-spacing:1px;
+transition:0.3 ease; 
+color:lightsteelblue;
+text-decoration: none;
+}
+.contact:hover {
+	font-weight: 800;
+	text-decoration:underline;
+	color: white;
+	background-color:#F3E7D5;
+	box-shadow: 0 0 25px #F3E7D5;
+	transition: 0.15s ease;
+}
+
+.home {
+	width: 100%;
+	min-height: 100vh;
+	background-color:#F3E7D5;
+	display: flex;
+	align-items: center;
+	gap: 45px;
+	padding: 30px 12% 0;
+}
+
+.home-content { max-width: 600px; }
+
+.home-content h1 { font-size: 42px; color: #9ABADB; }
+
+.home-content p { 
+font-size: 18px;
+margin: 25px 0 30px;
+
+}
+
+.behindandtest { 
+width: 90px;
+display: flex;
+gap: 2em;
+padding: 15px 28px;
+background-color: white;
+color: black;
+border: 2px solid transparent;
+border-radius: 8px;
+font-size: 16px;
+cursor:pointer;
+letter-spacing: 1px;
+color: lightsteelblue;
+text-decoration: none;
+}
+
+.behindandtest:hover {
+	font-weight:600;
+	text-decoration: underline;
+	color:white;
+	background-color: lightsteelblue;
+	box-shadow: 0 0 25px lightsteelblue;
+	transition: 0.15s ease;
+}
+
+.img img {
+	border-radius: 40%;
+	width: 300px;
+}
+
+::-webkit-scrollbar {
+	width: 15px;
+}
+::-webkit-scrollbar-thumb { background-color: lightsteelblue;}
+::-webkit-scrollbar-track { background-color: white; width: 50px;}
+
+.contact-content {
+	display:flex;
+	flex-wrap: wrap;
+	gap: 20px;
+	justify-content: left;
+	padding: 20px;
+	max-width:1200px;
+	margin:0 auto;
+	flex-direction:column;
+	align-items: left;
+}
+
+.contact-content h1 {
+	max-width: 50em;
+	padding-top: 90px;
+	grid-column: 1 / -1;
+	font-size: 45px;
+	color: lightsteelblue;
+	text-align: left;
+	margin-bottom: 30px;
+}
+
+.kowntacts {
+	background-color: #F3E7D5;
+}
+
+.cards-container { 
+display:flex;
+flex-wrap: wrap; 
+justify-content: center;
+gap: 20px;
+width:100%
+}
+
+.card {
+background: white;
+padding: 25px;
+border-radius: 20px;
+box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+transition: transform 0.3s ease;
+width: 350px;
+box-sizing: border-box;
+
+}
+
+.card:hover {
+transform: translateY(-5px);
+}
+
+.con {
+margin-bottom: 10px;
+}
+
+.card h2 { color: palevioletred;}
+	
+
+.name {
+font-weight: 600;
+color: #FFC0CB;
+font-style: italic;
+}
+
+.user {
+text-align: right;
+font-weight: 400;
+}
+
+
+
+</style>
+
+
+</head>
+</html>
